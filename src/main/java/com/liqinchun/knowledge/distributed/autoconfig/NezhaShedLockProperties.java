@@ -9,4 +9,5 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @Data
 @ConfigurationProperties("nezha.shedlock")
 public class NezhaShedLockProperties {
+    boolean enable = true;
 }
